@@ -18,7 +18,7 @@ export const putDb = async (content) => {console.error('putDb not implemented');
 const textDb = await openDB('jate', 1)
 const tx = textDb.transaction('jate', 'readwrite')
 const store = tx.objectStore('jate')
-const request = store.add({ text: content})
+const request = store.add({ id: 1, text: content}) //store it to same id each time
 const result = await request
 console.log('🚀 - data saved to the database', result);
 }
@@ -28,9 +28,9 @@ export const getDb = async () => {console.error('getDb not implemented');
 const textDb = await openDB('jate', 1)
 const tx = textDb.transaction('jate', 'readonly')
 const store = tx.objectStore('jate')
-const request = store.getAll()
+const request = store.get(1)
 const result = await request
-console.log('result.value', result)
-return result 
+console.log('Stored Text', result.text)
+return result.text 
 }
 initdb();
