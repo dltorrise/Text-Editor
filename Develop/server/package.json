@@ -4,8 +4,8 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "OGserver-ask-about": "nodemon server.js --ignore client",
-        "server": "node server.js"
+        "server": "nodemon server.js --ignore client",
+        "explanation": "will ignore changes in client folder"
     },
     "keywords": [],
     "author": "",

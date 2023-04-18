@@ -43,7 +43,7 @@ module.exports = () => {
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
-            //word for this
+            //for responsive design
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
@@ -54,14 +54,17 @@ module.exports = () => {
     module: {
       rules: [
         {
+          //tells you pattern to look for
           test: /\.css$/i,
+          //which loaders used to parse thouse
           use: ['style-loader', 'css-loader'],
         },
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
           // We use babel-loader in order to use ES6.
-          //supposed to make things load faster
+          //transpiles code from ES6 down to ES5 and other versions of js
+          //so it doesn't matter what version you use
           use: {
             loader: 'babel-loader',
             options: {
