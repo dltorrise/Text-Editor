@@ -30,7 +30,9 @@ const tx = textDb.transaction('jate', 'readonly')
 const store = tx.objectStore('jate')
 const request = store.get(1)
 const result = await request
-console.log('Stored Text', result.text)
+if (result) {
+  console.log('Stored Text', result.text)
+}
 //if it doesn't exist don't return it
 return result?.text;
 }
