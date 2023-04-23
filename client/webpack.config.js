@@ -5,8 +5,6 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 
 //to be a PWA, you need to use as little resources as possible
 //using the webpack, more resource efficient
-// TODO: Add and configure workbox plugins for a service worker and manifest file.
-// TODO: Add CSS loaders and babel to webpack.
 
 module.exports = () => {
   return {

@@ -6,7 +6,7 @@
   - ii. [General Information](#general-information)
     - i. [Installation](#installation)
     - ii. [Usage](#usage)
-  - iii. [Demo & Screenshot](#demo-and-screenshot)
+  - iii. [Screenshots & Link](#screenshots-&-link)
 
   ## Description
   
@@ -20,5 +20,19 @@
   
   ```npm i```
 
-  ## Demo and Screenshot 
+### Usage
 
+With JATE, you can save your past text in IndexedDB, which means it will persist past refreshes for 30 days! It will also work offline and uses local storage to store the values in IndexedDB. There is an option to click the installation button and install the app on your browser. 
+
+  ## Screenshots & Link
+
+Screenshot of JATE Application
+![Screenshot of JATE Application](./assets/images/screenshot-jate.png)
+
+Screenshot of IndexedDB code
+![Screenshot of IndexedDB code](./assets/images/database-screenshot.png)
+
+Screenshot of Webpack
+![Screenshot of Webpack](./assets/images/webpack-screenshot.png)
+
+[Link to Application](https://polar-headland-37340.herokuapp.com/)

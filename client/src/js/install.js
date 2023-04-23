@@ -25,3 +25,5 @@ window.addEventListener('appinstalled', (event) => {
   
   window.deferredPrompt = null;
 }); 
+
+//hide install button
