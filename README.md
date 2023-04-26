@@ -32,7 +32,4 @@ Screenshot of JATE Application
 Screenshot of IndexedDB code
 ![Screenshot of IndexedDB code](./assets/images/database-screenshot.png)
 
-Screenshot of Webpack
-![Screenshot of Webpack](./assets/images/webpack-screenshot.png)
-
 [Link to Application](https://polar-headland-37340.herokuapp.com/)
