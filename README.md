@@ -26,10 +26,12 @@ With JATE, you can save your past text in IndexedDB, which means it will persist
 
   ## Screenshots & Link
 
-Screenshot of JATE Application
+The following is a screenshot of JATE Application.
+
 ![Screenshot of JATE Application](./assets/images/screenshot-jate.png)
 
-Screenshot of IndexedDB code
+The following is a screenshot of IndexedDB code. As you can see, I created functions to get previous text and also add text. 
+
 ![Screenshot of IndexedDB code](./assets/images/database-screenshot.png)
 
 [Link to Application](https://polar-headland-37340.herokuapp.com/)
